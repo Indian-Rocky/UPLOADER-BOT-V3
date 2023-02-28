@@ -17,7 +17,7 @@ class Config(object):
 
     API_HASH = os.environ.get("API_HASH", "eff07a6fd1fd581be959970ee7c06962" ))
 
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "40955937").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "6009081395").split())
 
     BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
 
@@ -53,7 +53,7 @@ class Config(object):
 
     LOGGER = logging
 
-    OWNER_ID = int(os.environ.get("OWNER_ID", "/40955937"))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "6009081395"))
 
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
     
