@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'UPLOADER-BOT-V3'
+    return 'GreyMatters'
 
 
 if __name__ == "__main__":
