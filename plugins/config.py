@@ -13,9 +13,9 @@ class Config(object):
 
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "6244236878:AAERMGwn0uZoFQUqlgnUJtMK1mPsRIvgRIQ")
 
-    API_ID = int(os.environ.get("API_ID", "28082960" ))
+    API_ID = int(os.environ.get("API_ID", "28082960")
 
-    API_HASH = os.environ.get("API_HASH", "eff07a6fd1fd581be959970ee7c06962" ))
+    API_HASH = os.environ.get("API_HASH", "eff07a6fd1fd581be959970ee7c06962")
 
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "6009081395").split())
 
@@ -35,7 +35,7 @@ class Config(object):
 
     DEF_THUMB_NAIL_VID_S = os.environ.get("DEF_THUMB_NAIL_VID_S", "https://placehold.it/90x90")
 
-    HTTP_PROXY = os.environ.get("HTTP_PROXY", "")
+    HTTP_PROXY = os.environ.get("HTTP_PROXY", "8080")
 
     OUO_IO_API_KEY = ""
 
@@ -49,11 +49,11 @@ class Config(object):
 
     SESSION_NAME = os.environ.get("SESSION_NAME", "UploadLinkToFileBot")
 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001858045097" ))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001858045097")
 
     LOGGER = logging
 
-    OWNER_ID = int(os.environ.get("OWNER_ID", "6009081395"))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "6009081395")
 
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
     
