@@ -20,7 +20,7 @@ class Config(object):
 
     API_ID = int(os.environ.get("API_ID", 28082960))
 
-    API_HASH = os.environ.get("API_HASH")
+    API_HASH = os.environ.get("API_HASH", "eff07a6fd1fd581be959970ee7c06962")
 
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "6009081395").split())
 
